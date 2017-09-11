@@ -13,3 +13,16 @@
 3、vue.js环境安装：http://blog.csdn.net/luckylqh/article/details/52863026?locationNum=2&fps=1
 
 4、微信授权登陆：http://www.cnblogs.com/txw1958/p/weixin71-oauth20.html
+
+5、git使用：http://www.cnblogs.com/specter45/p/github.html
+            http://www.jianshu.com/p/c70ca3a02087
+
+6、git详细用法：https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+7、动态加载（懒加载）：http://www.zcfy.cc/article/native-ecmascript-modules-dynamic-import-2572.html
+
+8、找到端口号：netstat -aon|findstr "8080"
+
+9、git clone git@github.com:jackIsZlg/test
+
+10、vue-validate
