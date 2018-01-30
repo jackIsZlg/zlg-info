@@ -24,5 +24,46 @@
 8、找到端口号：netstat -aon|findstr "8080"
 
 9、git clone git@github.com:jackIsZlg/test
+   删除某个文件夹:
+     git rm -r --cached  "React版单页面音乐播放器"
+     git commit -m "remove new gitignore directory"
+     git push origin master  
 
-10、vue-validate
+10、vee-validator: http://blog.csdn.net/docallen/article/details/73650179
+     官方文档：http://vee-validate.logaretm.com/
+
+11、react教程：http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html
+
+12、图片压缩：https://tinypng.com/
+
+13、ES6声明变量的6种方法：var、function、let 、const、import、class
+
+14、vue引入jquery/bootstracp：http://www.cnblogs.com/wyd168/p/6655734.html
+
+15、echarts使用：http://echarts.baidu.com/option.html#grid
+
+16、微信小程序开发：https://www.zhihu.com/question/50907897
+
+17、设置 npm 用淘宝镜像下载 npm config set registry https://registry.npm.taobao.org
+    -- 配置后可通过下面方式来验证是否成功
+
+18、画斜杠：https://www.cnblogs.com/chun6/p/6132258.html
+
+19、微信小程序开发入坑：http://blog.csdn.net/huyuchaoheaven/article/details/79044710
+
+20、获取对象名称：Object.getOwnPropertyNames ,知道aaa的名称
+     'aaa':[
+          {a:1，b:2},
+       ]
+
+21、编写样式遇到的坑：
+       在fixed背景层下面不能有input框，微信浏览器下不能定位；
+       微信分享不能带红包两个字，图片显示不出来；
+       在微信端切出去js代码停滞，需要立即知道时间：document.addEventListener("visibilitychange",function (e) {})
+       
+
+http://www.cnblogs.com/hutuzhu/p/4450850.html
+
+http://www.manhuagui.com/comic/20224/
+
+--save-dev
