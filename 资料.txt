@@ -51,6 +51,8 @@
 
 19、微信小程序开发入坑：http://blog.csdn.net/huyuchaoheaven/article/details/79044710
 
+20、微信小程序使用模板文件方便公共代码开发：http://blog.csdn.net/qq_18325731/article/details/77195944?locationNum=4&fps=1
+
 20、获取对象名称：Object.getOwnPropertyNames ,知道aaa的名称
      'aaa':[
           {a:1，b:2},
@@ -60,7 +62,78 @@
        在fixed背景层下面不能有input框，微信浏览器下不能定位；
        微信分享不能带红包两个字，图片显示不出来；
        在微信端切出去js代码停滞，需要立即知道时间：document.addEventListener("visibilitychange",function (e) {})
+       动态修改定时时间，用setTimeOut 来替换setIntervel
+
+22、上下浮动动画效果：
+
+            @-webkit-keyframes bounce-down {
+            25% {
+                -webkit-transform: translateY(-10px);
+            }
+            50%, 100% {
+                -webkit-transform: translateY(0);
+            }
+            75% {
+                -webkit-transform: translateY(10px);
+            }
+        }
+        @keyframes bounce-down {
+            25% {
+                transform: translateY(-10px);
+            }
+            50%, 100% {
+                transform: translateY(0);
+            }
+            75% {
+                transform: translateY(10px);
+            }
+        }
+        .animate-bounce-down{
+            -webkit-animation: bounce-down 1.5s linear infinite;
+            animation: bounce-down 1.5s linear infinite;
+        }
+        @-webkit-keyframes bounce-up {
+            25% {
+                -webkit-transform: translateY(10px);
+            }
+            50%, 100% {
+                -webkit-transform: translateY(0);
+            }
+            75% {
+                -webkit-transform: translateY(-10px);
+            }
+        }
+        @keyframes bounce-up {
+            25% {
+                transform: translateY(10px);
+            }
+            50%, 100% {
+                transform: translateY(0);
+            }
+            75% {
+                transform: translateY(-10px);
+            }
+        }
+        .animate-bounce-up{
+            -webkit-animation: bounce-up 3s linear infinite;
+            animation: bounce-up 3s linear infinite;
+        }
+
+
        
+23：页面滑动：http://www.25xt.com/html5css3/8919.html
+
+24：设置cookie时，httpOnly告知浏览器不允许通过document.cookie去更改这个cookie值
+
+25：react例子：https://github.com/echoLC/react-webApp
+
+26：react-router中文文档:http://618cj.com/react-router4-0%E8%B7%AF%E7%94%B1%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3api/
+
+27： <input id="copyTxt" value="http://www.congmingmoney.com/zhuce?recommCode={{myinvite.recommCodes}}" style="margin-top: 80px;">
+     $('#copyTxt').select(); // 选择对象
+     document.execCommand("Copy"); // 执行浏览器复制命令
+
+28: 找icon图标网址: http://www.iconfont.cn/search/index?q=%E7%94%A8%E6%88%B7
 
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
