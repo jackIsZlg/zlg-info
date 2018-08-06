@@ -135,6 +135,17 @@
 
 28: 找icon图标网址: http://www.iconfont.cn/search/index?q=%E7%94%A8%E6%88%B7
 
+29：百度地图：https://dafrok.github.io/vue-baidu-map/#/zh/overlay/overlay
+
+30：百度地图开发demo:  http://lbsyun.baidu.com/jsdemo.htm#h0_5
+
+40： 
+   var script=document.createElement("script");
+   script.type="text/javascript";
+   script.src="https://code.jquery.com/jquery-3.1.1.min.js";
+   document.getElementsByTagName('head')[0].appendChild(script); 
+   script.onload=function(){}
+
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
 http://www.manhuagui.com/comic/20224/
