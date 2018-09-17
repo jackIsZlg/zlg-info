@@ -139,12 +139,16 @@
 
 30：百度地图开发demo:  http://lbsyun.baidu.com/jsdemo.htm#h0_5
 
-40： 
+31： 
    var script=document.createElement("script");
    script.type="text/javascript";
    script.src="https://code.jquery.com/jquery-3.1.1.min.js";
    document.getElementsByTagName('head')[0].appendChild(script); 
    script.onload=function(){}
+
+32: 网易严选weex 项目：https://github.com/zwwill/yanxuan-weex-demo
+
+33: 判断浏览器不是怪异模式：document.compatMode == "CSS1Compat"
 
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
