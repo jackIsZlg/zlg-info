@@ -1,70 +1,70 @@
- 1¡¢°²×°ÌÔ±¦¾µÏñÊ§°Ü£º
-     npm config set proxy null£¨npm config delete proxy£©
+ 1ã€å®‰è£…æ·˜å®é•œåƒå¤±è´¥ï¼š
+     npm config set proxy nullï¼ˆnpm config delete proxyï¼‰
      npm config set https-proxy null
      npm config set strict-ssl false
      npm install -g cnpm --registry=https://registry.npm.taobao.org
 
-2¡¢°²×°sass: http://www.cnblogs.com/cshi/p/5622650.html
-   gem sources ¨Cr http://rubygems.org/
-   gem sources ¨Ca http://ruby.taobao.org/
-   gem sources ¨Cl
+2ã€å®‰è£…sass: http://www.cnblogs.com/cshi/p/5622650.html
+   gem sources â€“r http://rubygems.org/
+   gem sources â€“a http://ruby.taobao.org/
+   gem sources â€“l
    gem install sass
 
-3¡¢vue.js»·¾³°²×°£ºhttp://blog.csdn.net/luckylqh/article/details/52863026?locationNum=2&fps=1
+3ã€vue.jsç¯å¢ƒå®‰è£…ï¼šhttp://blog.csdn.net/luckylqh/article/details/52863026?locationNum=2&fps=1
 
-4¡¢Î¢ĞÅÊÚÈ¨µÇÂ½£ºhttp://www.cnblogs.com/txw1958/p/weixin71-oauth20.html
+4ã€å¾®ä¿¡æˆæƒç™»é™†ï¼šhttp://www.cnblogs.com/txw1958/p/weixin71-oauth20.html
 
-5¡¢gitÊ¹ÓÃ£ºhttp://www.cnblogs.com/specter45/p/github.html
+5ã€gitä½¿ç”¨ï¼šhttp://www.cnblogs.com/specter45/p/github.html
             http://www.jianshu.com/p/c70ca3a02087
 
-6¡¢gitÏêÏ¸ÓÃ·¨£ºhttps://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+6ã€gitè¯¦ç»†ç”¨æ³•ï¼šhttps://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-7¡¢¶¯Ì¬¼ÓÔØ£¨ÀÁ¼ÓÔØ£©£ºhttp://www.zcfy.cc/article/native-ecmascript-modules-dynamic-import-2572.html
+7ã€åŠ¨æ€åŠ è½½ï¼ˆæ‡’åŠ è½½ï¼‰ï¼šhttp://www.zcfy.cc/article/native-ecmascript-modules-dynamic-import-2572.html
 
-8¡¢ÕÒµ½¶Ë¿ÚºÅ£ºnetstat -aon|findstr "8080"
+8ã€æ‰¾åˆ°ç«¯å£å·ï¼šnetstat -aon|findstr "8080"
 
-9¡¢git clone git@github.com:jackIsZlg/test
-   É¾³ıÄ³¸öÎÄ¼ş¼Ğ:
-     git rm -r --cached  "React°æµ¥Ò³ÃæÒôÀÖ²¥·ÅÆ÷"
+9ã€git clone git@github.com:jackIsZlg/test
+   åˆ é™¤æŸä¸ªæ–‡ä»¶å¤¹:
+     git rm -r --cached  "Reactç‰ˆå•é¡µé¢éŸ³ä¹æ’­æ”¾å™¨"
      git commit -m "remove new gitignore directory"
      git push origin master  
 
-10¡¢vee-validator: http://blog.csdn.net/docallen/article/details/73650179
-     ¹Ù·½ÎÄµµ£ºhttp://vee-validate.logaretm.com/
+10ã€vee-validator: http://blog.csdn.net/docallen/article/details/73650179
+     å®˜æ–¹æ–‡æ¡£ï¼šhttp://vee-validate.logaretm.com/
 
-11¡¢react½Ì³Ì£ºhttp://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html
+11ã€reactæ•™ç¨‹ï¼šhttp://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html
 
-12¡¢Í¼Æ¬Ñ¹Ëõ£ºhttps://tinypng.com/
+12ã€å›¾ç‰‡å‹ç¼©ï¼šhttps://tinypng.com/
 
-13¡¢ES6ÉùÃ÷±äÁ¿µÄ6ÖÖ·½·¨£ºvar¡¢function¡¢let ¡¢const¡¢import¡¢class
+13ã€ES6å£°æ˜å˜é‡çš„6ç§æ–¹æ³•ï¼švarã€functionã€let ã€constã€importã€class
 
-14¡¢vueÒıÈëjquery/bootstracp£ºhttp://www.cnblogs.com/wyd168/p/6655734.html
+14ã€vueå¼•å…¥jquery/bootstracpï¼šhttp://www.cnblogs.com/wyd168/p/6655734.html
 
-15¡¢echartsÊ¹ÓÃ£ºhttp://echarts.baidu.com/option.html#grid
+15ã€echartsä½¿ç”¨ï¼šhttp://echarts.baidu.com/option.html#grid
 
-16¡¢Î¢ĞÅĞ¡³ÌĞò¿ª·¢£ºhttps://www.zhihu.com/question/50907897
+16ã€å¾®ä¿¡å°ç¨‹åºå¼€å‘ï¼šhttps://www.zhihu.com/question/50907897
 
-17¡¢ÉèÖÃ npm ÓÃÌÔ±¦¾µÏñÏÂÔØ npm config set registry https://registry.npm.taobao.org
-    -- ÅäÖÃºó¿ÉÍ¨¹ıÏÂÃæ·½Ê½À´ÑéÖ¤ÊÇ·ñ³É¹¦
+17ã€è®¾ç½® npm ç”¨æ·˜å®é•œåƒä¸‹è½½ npm config set registry https://registry.npm.taobao.org
+    -- é…ç½®åå¯é€šè¿‡ä¸‹é¢æ–¹å¼æ¥éªŒè¯æ˜¯å¦æˆåŠŸ
 
-18¡¢»­Ğ±¸Ü£ºhttps://www.cnblogs.com/chun6/p/6132258.html
+18ã€ç”»æ–œæ ï¼šhttps://www.cnblogs.com/chun6/p/6132258.html
 
-19¡¢Î¢ĞÅĞ¡³ÌĞò¿ª·¢Èë¿Ó£ºhttp://blog.csdn.net/huyuchaoheaven/article/details/79044710
+19ã€å¾®ä¿¡å°ç¨‹åºå¼€å‘å…¥å‘ï¼šhttp://blog.csdn.net/huyuchaoheaven/article/details/79044710
 
-20¡¢Î¢ĞÅĞ¡³ÌĞòÊ¹ÓÃÄ£°åÎÄ¼ş·½±ã¹«¹²´úÂë¿ª·¢£ºhttp://blog.csdn.net/qq_18325731/article/details/77195944?locationNum=4&fps=1
+20ã€å¾®ä¿¡å°ç¨‹åºä½¿ç”¨æ¨¡æ¿æ–‡ä»¶æ–¹ä¾¿å…¬å…±ä»£ç å¼€å‘ï¼šhttp://blog.csdn.net/qq_18325731/article/details/77195944?locationNum=4&fps=1
 
-20¡¢»ñÈ¡¶ÔÏóÃû³Æ£ºObject.getOwnPropertyNames ,ÖªµÀaaaµÄÃû³Æ
+20ã€è·å–å¯¹è±¡åç§°ï¼šObject.getOwnPropertyNames ,çŸ¥é“aaaçš„åç§°
      'aaa':[
-          {a:1£¬b:2},
+          {a:1ï¼Œb:2},
        ]
 
-21¡¢±àĞ´ÑùÊ½Óöµ½µÄ¿Ó£º
-       ÔÚfixed±³¾°²ãÏÂÃæ²»ÄÜÓĞinput¿ò£¬Î¢ĞÅä¯ÀÀÆ÷ÏÂ²»ÄÜ¶¨Î»£»
-       Î¢ĞÅ·ÖÏí²»ÄÜ´øºì°üÁ½¸ö×Ö£¬Í¼Æ¬ÏÔÊ¾²»³öÀ´£»
-       ÔÚÎ¢ĞÅ¶ËÇĞ³öÈ¥js´úÂëÍ£ÖÍ£¬ĞèÒªÁ¢¼´ÖªµÀÊ±¼ä£ºdocument.addEventListener("visibilitychange",function (e) {})
-       ¶¯Ì¬ĞŞ¸Ä¶¨Ê±Ê±¼ä£¬ÓÃsetTimeOut À´Ìæ»»setIntervel
+21ã€ç¼–å†™æ ·å¼é‡åˆ°çš„å‘ï¼š
+       åœ¨fixedèƒŒæ™¯å±‚ä¸‹é¢ä¸èƒ½æœ‰inputæ¡†ï¼Œå¾®ä¿¡æµè§ˆå™¨ä¸‹ä¸èƒ½å®šä½ï¼›
+       å¾®ä¿¡åˆ†äº«ä¸èƒ½å¸¦çº¢åŒ…ä¸¤ä¸ªå­—ï¼Œå›¾ç‰‡æ˜¾ç¤ºä¸å‡ºæ¥ï¼›
+       åœ¨å¾®ä¿¡ç«¯åˆ‡å‡ºå»jsä»£ç åœæ»ï¼Œéœ€è¦ç«‹å³çŸ¥é“æ—¶é—´ï¼šdocument.addEventListener("visibilitychange",function (e) {})
+       åŠ¨æ€ä¿®æ”¹å®šæ—¶æ—¶é—´ï¼Œç”¨setTimeOut æ¥æ›¿æ¢setIntervel
 
-22¡¢ÉÏÏÂ¸¡¶¯¶¯»­Ğ§¹û£º
+22ã€ä¸Šä¸‹æµ®åŠ¨åŠ¨ç”»æ•ˆæœï¼š
 
             @-webkit-keyframes bounce-down {
             25% {
@@ -121,34 +121,36 @@
 
 
        
-23£ºÒ³Ãæ»¬¶¯£ºhttp://www.25xt.com/html5css3/8919.html
+23ï¼šé¡µé¢æ»‘åŠ¨ï¼šhttp://www.25xt.com/html5css3/8919.html
 
-24£ºÉèÖÃcookieÊ±£¬httpOnly¸æÖªä¯ÀÀÆ÷²»ÔÊĞíÍ¨¹ıdocument.cookieÈ¥¸ü¸ÄÕâ¸öcookieÖµ
+24ï¼šè®¾ç½®cookieæ—¶ï¼ŒhttpOnlyå‘ŠçŸ¥æµè§ˆå™¨ä¸å…è®¸é€šè¿‡document.cookieå»æ›´æ”¹è¿™ä¸ªcookieå€¼
 
-25£ºreactÀı×Ó£ºhttps://github.com/echoLC/react-webApp
+25ï¼šreactä¾‹å­ï¼šhttps://github.com/echoLC/react-webApp
 
-26£ºreact-routerÖĞÎÄÎÄµµ:http://618cj.com/react-router4-0%E8%B7%AF%E7%94%B1%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3api/
+26ï¼šreact-routerä¸­æ–‡æ–‡æ¡£:http://618cj.com/react-router4-0%E8%B7%AF%E7%94%B1%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3api/
 
-27£º <input id="copyTxt" value="http://www.congmingmoney.com/zhuce?recommCode={{myinvite.recommCodes}}" style="margin-top: 80px;">
-     $('#copyTxt').select(); // Ñ¡Ôñ¶ÔÏó
-     document.execCommand("Copy"); // Ö´ĞĞä¯ÀÀÆ÷¸´ÖÆÃüÁî
+27ï¼š <input id="copyTxt" value="http://www.congmingmoney.com/zhuce?recommCode={{myinvite.recommCodes}}" style="margin-top: 80px;">
+     $('#copyTxt').select(); // é€‰æ‹©å¯¹è±¡
+     document.execCommand("Copy"); // æ‰§è¡Œæµè§ˆå™¨å¤åˆ¶å‘½ä»¤
 
-28: ÕÒiconÍ¼±êÍøÖ·: http://www.iconfont.cn/search/index?q=%E7%94%A8%E6%88%B7
+28: æ‰¾iconå›¾æ ‡ç½‘å€: http://www.iconfont.cn/search/index?q=%E7%94%A8%E6%88%B7
 
-29£º°Ù¶ÈµØÍ¼£ºhttps://dafrok.github.io/vue-baidu-map/#/zh/overlay/overlay
+29ï¼šç™¾åº¦åœ°å›¾ï¼šhttps://dafrok.github.io/vue-baidu-map/#/zh/overlay/overlay
 
-30£º°Ù¶ÈµØÍ¼¿ª·¢demo:  http://lbsyun.baidu.com/jsdemo.htm#h0_5
+30ï¼šç™¾åº¦åœ°å›¾å¼€å‘demo:  http://lbsyun.baidu.com/jsdemo.htm#h0_5
 
-31£º 
+31ï¼š 
    var script=document.createElement("script");
    script.type="text/javascript";
    script.src="https://code.jquery.com/jquery-3.1.1.min.js";
    document.getElementsByTagName('head')[0].appendChild(script); 
    script.onload=function(){}
 
-32: ÍøÒ×ÑÏÑ¡weex ÏîÄ¿£ºhttps://github.com/zwwill/yanxuan-weex-demo
+32: ç½‘æ˜“ä¸¥é€‰weex é¡¹ç›®ï¼šhttps://github.com/zwwill/yanxuan-weex-demo
 
-33: ÅĞ¶Ïä¯ÀÀÆ÷²»ÊÇ¹ÖÒìÄ£Ê½£ºdocument.compatMode == "CSS1Compat"
+33: åˆ¤æ–­æµè§ˆå™¨ä¸æ˜¯æ€ªå¼‚æ¨¡å¼ï¼šdocument.compatMode == "CSS1Compat"
+
+34: Linuxå®‰è£…é…ç½®ï¼šhttps://blog.csdn.net/maoyuanming0806/article/details/80152876
 
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
