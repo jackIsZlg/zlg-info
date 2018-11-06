@@ -152,6 +152,8 @@
 
 34: Linux安装配置：https://blog.csdn.net/maoyuanming0806/article/details/80152876
 
+35: react-router4按需加载4种方法: https://www.cnblogs.com/alan2kat/p/7754846.html
+
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
 http://www.manhuagui.com/comic/20224/
