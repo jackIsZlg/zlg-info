@@ -1,0 +1,19 @@
+剩余时间倒计时
+showD11Rule = () => {
+    if (this.state.currRemain != 0) {
+        let time = this.state.currRemain;
+        let hour = Math.floor(time / 3600);
+        time -= hour * 3600;
+        let minute = Math.floor(time / 60);
+        time -= minute * 60;
+        let second = Math.floor(time / 1);
+        if (hour < 10) { hour = `0${hour}`; }
+        if (minute < 10) { minute = `0${minute}`; }
+        if (second < 10) { second = `0${second}`; }
+        this.setState({ timeBack: `${hour}:${minute}:${second}`, currRemain: this.state.currRemain - 1 });
+        this.timeId = setTimeout(this.showD11Rule, 1000);
+    } else {
+        this.setState({ timeBack: '00:00:00' });
+        clearTimeout(this.timeId);
+    }
+}
