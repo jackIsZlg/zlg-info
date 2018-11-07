@@ -154,6 +154,10 @@
 
 35: react-router4按需加载4种方法: https://www.cnblogs.com/alan2kat/p/7754846.html
 
+36: gitHub下载某个文件夹npm install git-down-repo -g // 安装全局
+    // test 
+    gitdown https://github.com/hua1995116/webchat  // 下载整个仓库（默认master）
+
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
 http://www.manhuagui.com/comic/20224/
