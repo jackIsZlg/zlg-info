@@ -158,6 +158,8 @@
     // test 
     gitdown https://github.com/hua1995116/webchat  // 下载整个仓库（默认master）
 
+37: vue: v-for修改item里的数据 this.$forceUpdate();进行强制渲染；react： this.forceUpdate();
+
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
 http://www.manhuagui.com/comic/20224/
