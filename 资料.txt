@@ -160,6 +160,8 @@
 
 37: vue: v-for修改item里的数据 this.$forceUpdate();进行强制渲染；react： this.forceUpdate();
 
+38: 修改alert 弹窗 ： https://blog.csdn.net/u011511210/article/details/54406226
+
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
 http://www.manhuagui.com/comic/20224/
