@@ -1,0 +1,28 @@
+1、左右滑动
+
+<div className={cx(S.divLine, S[`active${status}`])} >
+    <span />
+</div>
+
+.divLine{
+    &.active1{
+        transform: translateX(0%);
+    }
+    &.active2{
+        transform: translateX(100%);
+    }
+    &.active3{
+        transform: translateX(200%);
+    }
+    position: absolute;
+    bottom: 0;
+    width: 33.33%;
+    text-align: center;
+    transition: transform 0.3s;
+    span{
+        height: 2px;
+        width: 42px;
+        display: inline-block;
+        background-color: #00a0e9;
+    }
+}
