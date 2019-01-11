@@ -1,0 +1,91 @@
+1、JS有几种继承方式
+2、call／apply／bind三者的异同
+3、什么是js的闭包。为什么会产生闭包：
+   每次调用javascript函数的时候，都会为之创建一个新的对象来保存局部变量，把这个对象添加到作用域中。
+   当函数返回的时候，就从作用域链中将这个绑定变量的对象删除。如果不存在嵌套的函数，也没有引用指向这个
+   这个绑定对象，就会被垃圾回收掉。但是如果定义了嵌套的函数，每个嵌套的函数都各自有一个作用域，并且这
+   个作用域链指向一个变量绑定对象。但是如果这些嵌套的函数对象在外部函数中保留下来，那么它们也会和所指
+   向的变量绑定对象一样当作垃圾回收，但是如果这个函数定义了嵌套的函数，并将它作为返回值返回或者存储在、
+   某处的属性里，这时就会有一个外部引用指向这个嵌套的函数。它就不会被当作垃圾回收，并且它所指向的变量
+   绑定对象也不会被当作垃圾回收。
+4、怎样创建一个不会继承任何属性和方法的对象
+5、es6的数组去重 Array.from(new Set([]))
+6、什么是AMD、CMD
+7、commonjs的require和es6的import、export的区别
+8、post／get／delete／put的区别
+9、什么是xxr攻击及csrf？怎么避免？
+10、什么叫懒加载？
+11、jsonp的原理？有哪些跨域方式
+12、js的数据类型有哪些？怎么样才能判断准确对象的数据类型？
+    Object.prototype.toString.call();
+13、map和foreach的区别是什么？
+14、用过es6的哪些语法？promise的原理
+15、async await的原理
+16、什么是函数式编程？你对柯里化了解多少？
+17、let和var有啥区别
+18、console.log(b)
+    Var b = 1;
+    结果是什么？为什么会这样？
+19、vue的双向绑定原理
+20、业务场景：vue从A页面跳转到B页面，再从B跳到A，A不重新渲染，从C到A刷新，这个怎么实现？ Keep-alive
+21、vue中数据传递的方式有哪些？
+22、vue 父组件怎么直接访问子组件的对象或者函数，子组件怎么访问修改父组件的对象或者函数
+23、vue-router的原理？vuex的原理？虚拟dom是怎么实现的？
+24、在vue项目里面配置过webpack的哪些东西？
+25、vue语法糖props里面比如 :showTip.sync="showTip" .sync的原理
+26、git的一些常用操作命令
+26、什么是服务端渲染，服务端渲染的优势是什么？你对vue的服务端渲染了解过多少？了解过nuxt轻量级框架嘛？
+27、vue脚手架框架里面的<template></template>最终是怎么被提取渲染的？
+28、Object.defineProperty的缺点，怎么样才能深层次的监听变量或者对象？使用proxy
+29、什么是浅拷贝、深拷贝？分别举例子，怎么才能深度彻底拷贝一个对象的所有属性
+30、angular／vue／react优缺点，异同点
+31、什么是MVVM模式以及你对单页面的理解，跟传统的有什么优劣势，包括前后端分离。
+32、现在主流框架都能实现按需加载成chunk包，webpack 是怎么实现的？
+33、vue的生命周期都发生了什么？$el，data分别是在哪个生命周期挂载的？
+34、你做过哪些性能优化的点？
+35、vue有些时候对对象赋值，没有监听到对象的变化怎么办？
+36、简述下react的各个生命周期
+37、react的redux和vuex有啥区别，用过新的状态管理插件mobx没？redux的性能优化
+38、react的router实现页面按需的方式？
+39、react子组件怎么给父组件传递数据？
+40、业务场景：react从A页面跳转到B页面，再从B跳到A，A不重新渲染，从C到A刷新，这个怎么实现？
+    当前class用withrouter包裹
+    shouldComponentUpdate生命周期根据路由链接判断，return false
+41、redux的原理-》content对象
+42、react的PureComponent是使用在哪个业务场景下面的？
+43、前端onclick的在移动端200MS的延迟原因，使用FastClick的消除的原理实现
+44、怎么防抖动
+45、css垂直居中有哪几种方式？
+46、定位有哪几种？float布局要注意什么问题？怎么清除浮动（position:sticky了解一下）
+47、怎么处理手机锁屏时，js停止运行导致的倒计时不准确的问题？
+    document.addEventListener("visibilitychange",function (e) {})或者组件封装
+48、对flex布局了解多少及flex的兼容性？
+49、简述CSS的盒模型，与IE的怪异模式有啥区别？
+50、怎么实现IE9的文件上传？
+51、css属性：box-sizing: border-box/content-box两者的区别
+52、用过typeScript吗？
+53、是否熟悉node？node的三大框架，express（小型项目），koa（中等项目），egg（企业级）
+54、对数据可视化了解多少？数据可视化工具：echart（重要）／AnyChart／D3（最重要）
+55、谈谈遇到的兼容性问题，比如iE9不能用console.log()原因，移动端position：fix不能有input框
+56、webpack是怎么实现热更新操作的？
+57、nodejs的优缺点：V8引擎，非阻塞盒事件驱动
+58、原生js发送ajax请求的几大步骤 第一步new xmlhttprequest
+59、说一下304缓存
+60、原型对象用来干嘛的？对原型链的理解
+61、一个页面从输入URL到页面加载发生了什么？
+62、use strict 严格模式有什么限制
+63、link 和@import url的区别
+64、location.href和location.replace的区别
+65、cookie／sessionStorage／localStorage区别
+66、说下常见的http状态码及意思：200／201/202／400/500/501/504等等
+67、ajax的readyState有5个状态，分别是？
+68、jquery的attr()、prop()、data()有什么不同点
+69、window.onload 和document.ready的区别
+70、0.1 + 0.2 != 0.3 的原因
+71、浏览器的事件触发机制三个阶段、先冒泡还是先捕获
+72、addEventListener最后的参数true或者false的含义
+73、如何渲染几万条数据并不卡住界面？使用requestAnimationFrame
+74、怎么节流？
+75、js常用的几大数组方法？foreach／map/filter/every／some／reduce等
+76、了解下冒泡、排序等基本的算法
+可以先学习如下网址的东西：https://yuchengkai.cn/docs/frontend/
