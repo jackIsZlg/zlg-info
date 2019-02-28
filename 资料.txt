@@ -164,6 +164,8 @@
 
 39: js excel动态创建 https://handsontable.com/
 
+40: 微信小程序日历横向滚动demo：https://www.cnblogs.com/demodashi/p/9802016.html
+
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
 http://www.manhuagui.com/comic/20224/
