@@ -166,6 +166,9 @@
 
 40: 微信小程序日历横向滚动demo：https://www.cnblogs.com/demodashi/p/9802016.html
 
+41: trigger下window的scroll事件,修复页面回退stickynode不fixed问题
+    window.Event && window.dispatchEvent(new Event('scroll'));
+
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
 http://www.manhuagui.com/comic/20224/
