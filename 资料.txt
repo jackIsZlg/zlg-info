@@ -168,6 +168,10 @@
 
 41: trigger下window的scroll事件,修复页面回退stickynode不fixed问题
     window.Event && window.dispatchEvent(new Event('scroll'));
+    
+42: 手机端将当前rem转化为对应的具体px
+    const baseSize = Number(document.querySelector('html').style.fontSize.replace('px', ''));
+    Number(`${size}`.replace('rem', '')) * baseSize;
 
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
