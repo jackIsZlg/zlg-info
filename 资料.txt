@@ -171,12 +171,12 @@
     
 42: 手机端将当前rem转化为对应的具体px
     const baseSize = Number(document.querySelector('html').style.fontSize.replace('px', ''));
-    Number(`${size}`.replace('rem', '')) * baseSize;
+    Number(`${size}`.replace('rem', '')) * baseSize;     
 
 http://www.cnblogs.com/hutuzhu/p/4450850.html
 
 http://www.manhuagui.com/comic/20224/
 
-前端技术分析：whttps://shimo.im/docs/VXEZSWMLxlw4XB2M/read
+
 
 --save-dev
