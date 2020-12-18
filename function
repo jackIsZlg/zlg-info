@@ -1,5 +1,5 @@
 //剩余时间倒计时
-showD11Rule = () => {
+showRule = () => {
     if (this.state.currRemain != 0) {
         let time = this.state.currRemain;
         let hour = Math.floor(time / 3600);
@@ -62,5 +62,21 @@ function deepClone(data){
        }
    }
    return obj;
+}
+
+
+// 封装的下载数据函数
+function downLoadFile(fileName, content) {
+    var aTag = document.createElement('a');   // 获取 a 元素
+    var blob = new Blob([content]);           // 将数据保存在 blob 对象中
+    aTag.download = fileName;                 // 设置保存的文件名称
+    aTag.href = URL.createObjectURL(blob);    // 将数据保存在 href 属性中
+    aTag.click();                             // 模拟点击 a 元素，进行下载
+    URL.revokeObjectURL(blob);                // 删除内存中的 blob 对象的数据
+}
+
+// 调用下载接口
+function saveConfig() {
+    downLoadFile('nav.config.json', window.localStorage.navInfos)
 }
    
