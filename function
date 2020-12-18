@@ -79,4 +79,15 @@ function downLoadFile(fileName, content) {
 function saveConfig() {
     downLoadFile('nav.config.json', window.localStorage.navInfos)
 }
-   
+
+// 导入配置
+function importConfig() {
+  let reader = new FileReader()           // 创建 FileReader 对象
+  let files = document.querySelector('.file').value.files  // 获取已上传的文件信息
+  reader.readAsText(files[0])             // 读取文件内容
+  reader.onload = function() {            // 读取操作完成的处理函数
+    let data = this.result                // 获取文件读取结果
+    window.localStorage.navInfos = data   // 将文件数据存入 localStorage
+    location.reload()                     // 刷新页面
+  } 
+}
